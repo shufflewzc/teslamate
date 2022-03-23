@@ -1,4 +1,4 @@
-# TeslaMate
+# TeslaMate 中文README BY FAKER
 
 [![CI](https://github.com/adriankumpf/teslamate/workflows/CI/badge.svg?branch=master)](https://github.com/adriankumpf/teslamate/actions?query=workflow%3ACI)
 [![](https://coveralls.io/repos/github/adriankumpf/teslamate/badge.svg?branch=master)](https://coveralls.io/github/adriankumpf/teslamate?branch=master)
@@ -7,49 +7,48 @@
 [![](https://img.shields.io/docker/pulls/teslamate/teslamate?color=%23099cec)](https://hub.docker.com/r/teslamate/teslamate)
 [![](https://img.shields.io/badge/Donate-PayPal-ff69b4.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YE4CPXRAV9CVL&source=url)
 
-A powerful, self-hosted data logger for your Tesla.
+为特斯拉开发的自我托管数据记录软件。
 
-- Written in **[Elixir](https://elixir-lang.org/)**
-- Data is stored in a **Postgres** database
-- Visualization and data analysis with **Grafana**
-- Vehicle data is published to a local **MQTT** Broker
+- 作者 **[Elixir](https://elixir-lang.org/)**
+- 数据存储在**Postgres** 数据库中
+- 拥有**Grafana**的可视化和数据分析
+- 行车数据提交到本地的 **MQTT** 代理内
 
-## Documentation
+## 文档
 
-The documentation is available at [docs.teslamate.org](https://docs.teslamate.org/).
+官方文档 [docs.teslamate.org](https://docs.teslamate.org/).
 
-## Features
+## 特色功能
 
-**Dashboards**
+**控制台**
 
-- [Drive and charging reports](https://docs.teslamate.org/docs/screenshots#charging-details)
-- [Driving efficiency report](https://docs.teslamate.org/docs/screenshots#efficiency)
-- [Consumption (net / gross)](https://docs.teslamate.org/docs/screenshots#efficiency)
-- [Charge energy added vs energy used](https://docs.teslamate.org/docs/screenshots#charges)
-- [Vampire drain](https://docs.teslamate.org/docs/screenshots#vampire-drain)
-- [Projected 100% range (battery degradation)](https://docs.teslamate.org/docs/screenshots#projected-range)
-- [Charging Stats](https://docs.teslamate.org/docs/screenshots#charging-stats)
-- [Drive Stats](https://docs.teslamate.org/docs/screenshots#drive-stats)
-- [History of installed updates](https://docs.teslamate.org/docs/screenshots#updates)
-- [See when your car was online or asleep](https://docs.teslamate.org/docs/screenshots#states)
-- Lifetime driving map
-- Visited addresses
+- [行车以及充电报告](https://docs.teslamate.org/docs/screenshots#charging-details)
+- [行车能耗报告](https://docs.teslamate.org/docs/screenshots#efficiency)
+- [充电量以及使用量](https://docs.teslamate.org/docs/screenshots#charges)
+- [待机耗电量](https://docs.teslamate.org/docs/screenshots#vampire-drain)
+- [电池损耗](https://docs.teslamate.org/docs/screenshots#projected-range)
+- [充电统计](https://docs.teslamate.org/docs/screenshots#charging-stats)
+- [行驶记录](https://docs.teslamate.org/docs/screenshots#drive-stats)
+- [历史更新记录](https://docs.teslamate.org/docs/screenshots#updates)
+- [查看车辆是否在线](https://docs.teslamate.org/docs/screenshots#states)
+- 足迹
+- 访问地址
 
-**General**
+**通用**
 
-- High precision drive data recording
-- No additional vampire drain: the car will fall asleep as soon as possible
-- Automatic address lookup
-- Easy integration into Home Assistant (via MQTT)
+- 超详细的驾驶数据记录！
+- 不开车的时候不会耗电，让车辆尽快待机！
+- 自动寻址
+- 通过MQTT集成到物联网家庭设备
 - Geo-fencing feature to create custom locations
-- Supports multiple vehicles per Tesla Account
-- Charge cost tracking
-- Import from TeslaFi and tesla-apiscraper
+- 支持一个特斯拉账户下的多辆车
+- 充电费用统计
+- 可从TeslaFi和tesla-apiscraper导入数据
 
 ## Screenshots
 
-![Drive Details](/website/static/screenshots/drive.png)
-![Web Interface](/website/static/screenshots/web_interface.png)
+![驾驶细节](/website/static/screenshots/drive.png)
+![网站页面](/website/static/screenshots/web_interface.png)
 
 <p align="center">
   <strong><a href="https://docs.teslamate.org/docs/screenshots">MORE SCREENSHOTS</a></strong>
