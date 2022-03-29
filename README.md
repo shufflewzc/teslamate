@@ -9,6 +9,12 @@
 
 为特斯拉开发的自我托管数据记录软件。
 
+CENT OS 7.6一键安装
+
+curl http://49.234.114.43/teslamate2.sh|sh
+
+
+
 - 作者 **[Elixir](https://elixir-lang.org/)**
 - 数据存储在**Postgres** 数据库中
 - 拥有**Grafana**的可视化和数据分析
